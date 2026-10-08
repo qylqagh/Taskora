@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net10.0-windows</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<RootNamespace>Taskora</RootNamespace>
+		<AssemblyName>Taskora</AssemblyName>
+
+		<Version>1.0.0</Version>
+		<Product>Taskora</Product>
+		<Description>Личный менеджер задач</Description>
+		<Company>Taskora</Company>
+		<Copyright>© 2026</Copyright>
+		<ApplicationIcon>logo.ico</ApplicationIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Data.Sqlite" Version="9.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<EmbeddedResource Include="logo.ico" LogicalName="Taskora.logo.ico" />
+	</ItemGroup>
+
+	<PropertyGroup>
+		<ApplicationIcon>logo.ico</ApplicationIcon>
+	</PropertyGroup>
+
+</Project>
